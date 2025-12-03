@@ -1,16 +1,35 @@
-# focussprint
+# FocusSprint – Productivity Sprint Timer  
+Built for **Google AdMob x IIT Bombay E-Summit 2025**
 
-A new Flutter project.
+FocusSprint is a Flutter-based productivity app that helps users stay consistent using short, powerful focus sprints, XP rewards, and streak tracking.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
 
-A few resources to get you started if this is your first Flutter project:
+- ⏱ Animated sprint timer with neon ring
+- 🎯 Short focus sprints (1–60 minutes)
+- 🧠 XP and streak system to keep users motivated
+- 🌗 Light & Dark mode with adaptive UI
+- 🔔 Local notification + alarm when sprint completes
+- 📊 Stats: total focus time, completed sprints, daily breakdown
+- 💾 Local offline storage using SharedPreferences
+- 💰 Google AdMob banner integration
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠 Tech Stack
+
+- Flutter
+- Provider (state management)
+- Google Mobile Ads SDK (AdMob)
+- flutter_local_notifications
+- shared_preferences
+
+---
+
+## 📱 Running the App
+
+```bash
+flutter pub get
+flutter run
